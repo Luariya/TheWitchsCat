@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class Text : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
-    public string[] lines;
-    public float textSpeed;
+    [SerializeField] 
+    private TextMeshProUGUI textComponent = null;
 
-    private int index;
+    public string[] lines = null;
+    public float textSpeed = 0.3f;
+
+    private bool allowNextLine = true;
+
+    private int index = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,16 +27,22 @@ public class Text : MonoBehaviour
     {
         if(Input.GetMouseButton(0))
         {
-            if (textComponent.text == lines [index])
+            if (textComponent.text == lines[index] && allowNextLine)
             {
+                allowNextLine = false;
                 NextLine();
-
             }
             else
             {
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
+        }
+
+        if(Input.GetMouseButtonUp(0))
+        {
+
+            allowNextLine = true;
         }
     }
 
