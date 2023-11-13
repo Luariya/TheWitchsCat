@@ -6,6 +6,7 @@ public class CatMovement : MonoBehaviour
 {
     public float speed;
 
+
     //private Animator animator;
 
 
