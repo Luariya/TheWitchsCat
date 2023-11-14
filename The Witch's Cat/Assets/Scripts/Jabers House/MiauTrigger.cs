@@ -18,11 +18,17 @@ public class MiauTrigger : MonoBehaviour
         // Check if the player is in a specific area and presses the action key
         if (isInSpecificArea && Input.GetMouseButtonDown(0))
         {
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            if (hit.collider != null && hit.collider.CompareTag("Player"))
+            {
+                OnTrigger?.Invoke();
 
-            OnTrigger?.Invoke();
 
-            if (destroyAfterTriggered)
-                Destroy(this);
+                if (destroyAfterTriggered)
+                    Destroy(this);
+            }
+
+           
         }
     }
 
