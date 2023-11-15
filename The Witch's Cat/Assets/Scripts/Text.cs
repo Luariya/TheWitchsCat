@@ -11,6 +11,7 @@ public class Text : MonoBehaviour
 
     public string[] lines = null;
     public float textSpeed = 0.3f;
+    public GameObject TextboxPanel;
 
     private bool allowNextLine = true;
 
@@ -72,7 +73,7 @@ public class Text : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            TextboxPanel.SetActive(false);
         }
     }
 }
