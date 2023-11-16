@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class A : MonoBehaviour
+public class Kamin : MonoBehaviour
 {
     private bool canMove = true;
     private bool hasEntered = false;

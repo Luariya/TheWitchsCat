@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - clock
+  - Futter
+  - Stecker
+  - Rucksack
   layers:
   - Default
   - TransparentFX
