@@ -12,7 +12,8 @@ public class MiauTrigger : MonoBehaviour
 
     [SerializeField]
     private UnityEvent OnTrigger;
-
+    [SerializeField]
+    
     private void Update()
     {
         // Check if the player is in a specific area and presses the action key
