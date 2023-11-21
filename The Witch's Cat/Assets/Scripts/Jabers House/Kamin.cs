@@ -7,6 +7,8 @@ public class Kamin : MonoBehaviour
 {
     private bool canMove = true;
     private bool hasEntered = false;
+    [SerializeField]
+    private UnityEvent OnTrigger;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,6 +23,7 @@ public class Kamin : MonoBehaviour
 
                 // Set the flag to indicate the player has entered
                 hasEntered = true;
+                OnTrigger?.Invoke();
             }
         }
     }
@@ -45,7 +48,7 @@ public class Kamin : MonoBehaviour
         // Set the flag to allow movement
         canMove = true;
 
-        // Find the player object (you can customize this based on your setup)
+        // Find the player object
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
 
         if (playerObject != null)

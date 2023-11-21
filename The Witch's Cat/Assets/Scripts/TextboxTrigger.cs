@@ -4,11 +4,12 @@ using UnityEngine;
 using TMPro;
 using System;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class TextboxTrigger : MonoBehaviour
 {
     [SerializeField]
-    private GameObject meowTextPanel; // Reference to the MeowTextPanel GameObject
+    private GameObject TextPanel; // Reference to the MeowTextPanel GameObject
     [SerializeField]
     private TextMeshProUGUI textComponent = null;
 
@@ -18,11 +19,12 @@ public class TextboxTrigger : MonoBehaviour
     private bool allowNextLine = true;
 
     private int index = 0;
+    public string nextScene;
     private void Start()
     {
-        if (meowTextPanel != null)
+        if (TextPanel != null)
         {
-            meowTextPanel.SetActive(false); // Ensure the panel starts as inactive
+            TextPanel.SetActive(false); // Ensure the panel starts as inactive
         }
     }
 
@@ -69,11 +71,12 @@ public class TextboxTrigger : MonoBehaviour
         }
         else
         {
-            meowTextPanel.SetActive(false);
+            TextPanel.SetActive(false);
+            SceneManager.LoadScene(nextScene);
         }
     }
 
-    void StartMonologue()
+    public void StartMonologue()
     {
         index = 0;
         StartCoroutine(TypeLine());
