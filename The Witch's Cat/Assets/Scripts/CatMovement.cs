@@ -6,9 +6,11 @@ public class CatMovement : MonoBehaviour
 {
     public float speed;
 
-
+    public Rigidbody2D rb;
+    public Animator animator;
     //private Animator animator;
 
+    Vector2 movement;
 
     
 
@@ -49,7 +51,13 @@ public class CatMovement : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = speed * dir;
         //transform.position += (Vector3)dir * speed * Time.deltaTime;
 
-       
+
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 }
 
