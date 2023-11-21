@@ -7,12 +7,18 @@ public class MiauTrigger : MonoBehaviour
 {
     [SerializeField]
     private bool destroyAfterTriggered = false;
+    private bool canBeTriggered = false;
 
     private bool isInSpecificArea = false;
+    private bool hasEntered = false;
+
+    [SerializeField]
+    private UnityEvent OnFirstEnter;
 
     [SerializeField]
     private UnityEvent OnTrigger;
-
+    [SerializeField]
+    
     private void Update()
     {
         // Check if the player is in a specific area and presses the action key
@@ -38,6 +44,15 @@ public class MiauTrigger : MonoBehaviour
         {
             // Set the flag to indicate that the player is in the specific area
             isInSpecificArea = true;
+            if (!hasEntered)
+            {
+                hasEntered = true;
+                OnFirstEnter?.Invoke();
+            }
+            if (canBeTriggered)
+            {
+                OnTrigger?.Invoke(); // Invoke the main trigger event
+            }
         }
     }
 
@@ -50,5 +65,9 @@ public class MiauTrigger : MonoBehaviour
            
         }
     }
-   
+    public void ActivateTrigger()
+    {
+        canBeTriggered = true;
+    }
+
 }

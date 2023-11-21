@@ -1,18 +1,48 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class UIController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshProUGUI textComponent;
+    public GameObject textboxPanel;
+    public float textSpeed = 0.3f;
+
+    private void Start()
     {
-        
+        HideText();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShowInitialText()
     {
-        
+        ShowText();
+        StartCoroutine(TypeLine("Initial Monolog Line 1"));
+    }
+
+    public void ShowCharacterClickedText()
+    {
+        ShowText();
+        StartCoroutine(TypeLine("Character Clicked Line 1"));
+    }
+
+    public void HideText()
+    {
+        textboxPanel.SetActive(false);
+    }
+
+    public void ShowText()
+    {
+        textboxPanel.SetActive(true);
+    }
+
+    public IEnumerator TypeLine(string line)
+    {
+        textComponent.text = string.Empty;
+
+        foreach (char c in line.ToCharArray())
+        {
+            textComponent.text += c;
+            yield return new WaitForSeconds(textSpeed);
+        }
     }
 }
