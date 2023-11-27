@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b13ba6f7203a5f4469503525fb188cfe
+guid: 762bb3581a5da8b4088371e40de8e202
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Garten Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b33398a9517944cb5ea3a85b4bb2e9
+      internalID: 281657620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garten Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 125
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a98833977ba10488ea675e645b3f00
+      internalID: 522771569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garten Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 10
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f361bf47d4f0de4abd08525881d87fa
+      internalID: -321520456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garten Sprites_0: 281657620
+      Garten Sprites_1: 522771569
+      Garten Sprites_2: -321520456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
