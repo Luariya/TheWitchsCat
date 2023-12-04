@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ColliderTrigger : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ColliderTrigger : MonoBehaviour
     private bool destroyAfterTriggered = false;
     [SerializeField]
     private bool isActivated = true;
+    public string NextLevels;
 
     [SerializeField]
     private UnityEvent OnTrigger;
@@ -29,4 +31,10 @@ public class ColliderTrigger : MonoBehaviour
     {
         isActivated = true;
     }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(NextLevels);
+    }
+
 }

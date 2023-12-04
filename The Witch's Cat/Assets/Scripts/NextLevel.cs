@@ -6,7 +6,7 @@ using System;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class TextboxTrigger : MonoBehaviour
+public class NextLevel : MonoBehaviour
 {
     [SerializeField]
     private GameObject TextPanel; // Reference to the MeowTextPanel GameObject
@@ -19,7 +19,8 @@ public class TextboxTrigger : MonoBehaviour
     private bool allowNextLine = true;
 
     private int index = 0;
-    
+    public string NextLevels;
+
     private void Start()
     {
         if (TextPanel != null)
@@ -72,7 +73,7 @@ public class TextboxTrigger : MonoBehaviour
         else
         {
             TextPanel.SetActive(false);
-            
+            SceneManager.LoadScene(NextLevels);
         }
     }
 

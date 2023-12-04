@@ -995,7 +995,7 @@ PrefabInstance:
     - target: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1948942673}
+      objectReference: {fileID: 1948942674}
     - target: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1050,7 +1050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TextboxTrigger, Assembly-CSharp
+      value: NextLevel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -1677,6 +1677,7 @@ GameObject:
   - component: {fileID: 1948942671}
   - component: {fileID: 1948942670}
   - component: {fileID: 1948942673}
+  - component: {fileID: 1948942674}
   m_Layer: 5
   m_Name: meow panel?
   m_TagString: Untagged
@@ -1750,7 +1751,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948942669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44f3e458f28a99543ad69089ae16bce3, type: 3}
   m_Name: 
@@ -1762,7 +1763,26 @@ MonoBehaviour:
   - A witch? She looks...familiar...
   - I'm sure I've seen her before...
   textSpeed: 0.3
-  nextScene: FirstLevel
+--- !u!114 &1948942674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948942669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5d5bcc1ecbefb458382ace4e2ece97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextPanel: {fileID: 1948942669}
+  textComponent: {fileID: 1153800416}
+  lines:
+  - 
+  - A witch? She looks...familiar...
+  - I'm sure I've seen her before...
+  textSpeed: 0.3
+  NextLevels: FirstLevel
 --- !u!1 &2012793324
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class CatMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     //private Animator animator;
+    public Inventory inventory;
 
     Vector2 movement;
 
@@ -58,6 +59,16 @@ public class CatMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        IInventoryItem item = collision.collider.GetComponent<IInventoryItem>();
+        if (item != null)
+        {
+            inventory.AddItem(item);
+            Debug.Log("Collision detected");
+        }
     }
 }
 
