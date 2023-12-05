@@ -9,7 +9,7 @@ public class MenuScript : MonoBehaviour
     public GameObject LevelSelect;
     public GameObject Credits;
     public GameObject Settings;
-
+   
     public void QuitButton()
     {
 
@@ -58,4 +58,6 @@ public class MenuScript : MonoBehaviour
         Settings.SetActive(true);
 
     }
+
+   
 }

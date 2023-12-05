@@ -10,10 +10,13 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
     public string Name => itemName;
     public Sprite Image => itemImage;
 
+   
+
     public void OnPickup()
     {
+        
+            Debug.Log($"Picked up {itemName}!");
+            Destroy(gameObject); // For example, destroy the item after pickup
        
-        Debug.Log($"Picked up {itemName}!");
-        Destroy(gameObject); 
     }
 }
