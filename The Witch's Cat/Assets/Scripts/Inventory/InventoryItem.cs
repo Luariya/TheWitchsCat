@@ -18,7 +18,7 @@ public class InventoryEventArgs : EventArgs
     public InventoryEventArgs (IInventoryItem item)
     {
         Item = item;
-        Debug.Log("picked2");
+        Debug.Log("picked up");
     }
 
     public IInventoryItem Item; 

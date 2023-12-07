@@ -31,6 +31,7 @@ public class HUD : MonoBehaviour
             if(image != null && !image.enabled)
             {
                 image.enabled = true;
+                slot.GetComponent<SimpleItem>().SetData(e.Item); 
                 image.sprite = e.Item.Image;
                 Debug.Log("in Inventory");
 

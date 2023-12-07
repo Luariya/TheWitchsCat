@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class ItemClickHandler : MonoBehaviour
 {
+    public Inventory _Inventory;
+
+    private SimpleItem myItem;
+
+    public void Start()
+    {
+        myItem = GetComponent<SimpleItem>();
+    }
     public void OnItemClicked()
     {
-        ItemDragHandler dragHandler =
-        gameObject.transform.Find("Image").GetComponent<ItemDragHandler>();
+       
 
-        IInventoryItem item = dragHandler.Item;
-
-        Debug.Log(item.Name);
+        Debug.Log(myItem.Name);
 
 
     }

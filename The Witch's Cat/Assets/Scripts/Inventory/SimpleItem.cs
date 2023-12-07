@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,5 +19,11 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
             Debug.Log($"Picked up {itemName}!");
             Destroy(gameObject); // For example, destroy the item after pickup
        
+    }
+
+    internal void SetData(IInventoryItem item)
+    {
+        itemName = item.Name;
+        itemImage = item.Image;
     }
 }
