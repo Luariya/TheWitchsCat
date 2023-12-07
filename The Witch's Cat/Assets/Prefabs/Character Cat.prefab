@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8559779846146439428}
   - component: {fileID: 1877898880069678071}
   - component: {fileID: 6040556779904142852}
+  - component: {fileID: 5207346735559693869}
   m_Layer: 0
   m_Name: Character Cat
   m_TagString: Player
@@ -78,8 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 0.52791345, b: 0.33490568, a: 1}
+  m_Sprite: {fileID: -2091382828, guid: ce3458e732a61234c8596b6bf79c07d0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -129,6 +130,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  rb: {fileID: 0}
+  animator: {fileID: 5207346735559693869}
+  inventory: {fileID: 0}
 --- !u!70 &1877898880069678071
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -177,6 +181,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSound: {fileID: 8300000, guid: c906edb0d6eef8d4abf10781f17160c7, type: 3}
+--- !u!95 &5207346735559693869
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2685583805456097462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f20115b44ff6ea4ab13db8322266fd6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8084973892347837073
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,9 +228,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8084973892347837073}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.0876609, y: -1.7449657, z: -5}
-  m_LocalScale: {x: 1.6289816, y: 1.7042633, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5913693680034331544}
@@ -245,7 +270,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.3615255
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
