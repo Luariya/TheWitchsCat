@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: c901ad2dcdabfe74bb2393eacd79864f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_0"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 349
+        width: 70
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab698517e61ee4692c55abc223e77f
+      internalID: -268383366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_1"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 128
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61d12cf08785ba43a7330080730d211
+      internalID: 1219927024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_2"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847192f55812eca4eb334ccead8135d4
+      internalID: -1351951535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_3"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 19
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2de96fe76a2014a9f1f6f42b5fa55a
+      internalID: -178212674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_4"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96ea562c8b968d4982ebdd6d2fc0eb6
+      internalID: 1946535819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_5"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cb87589faac744cbec88df7b393c21
+      internalID: 391164262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_6"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 322
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068a1cb3f51c9a64fb456b109482e6c3
+      internalID: -724065707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_7"
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 352
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ee19dcb0aff449a3ebd80d99e3a8c
+      internalID: 628849045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_8"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 352
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad740acfbe845e4cb0676c3f417c67e
+      internalID: -1916602090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_9"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 288
+        width: 84
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3d069fbaa7c484eb6ad074c881da40
+      internalID: -963284056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_10"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07131a1067805244ab924d49dd7d792
+      internalID: -145828463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_11"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 288
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c914c2f9423a9d4fbc21fca9a9669f5
+      internalID: -817518340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_12"
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 288
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea3361e822a5f540bb6b4ad383f11db
+      internalID: 750585117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_13"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 288
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662c2597c094a764594ee392c5ffa656
+      internalID: -1298962753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_14"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 259
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea9f0edc737e014f824cf694a214768
+      internalID: -1995432970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_15"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 229
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff82c8e6a4a6d046a18e36b70b1c9a0
+      internalID: -787033332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_16"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 224
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f69b4bbf2f4aef4cab0af5f79493668
+      internalID: -388558285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_17"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44eb1a9678b61447a9372ca6a1be311
+      internalID: -1768504611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_18"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 128
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee195247eb706d4eac5d6a8d08434e5
+      internalID: 267173271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_19"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 131
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67924c58f1a5f2c4796eaee215e46131
+      internalID: 108158563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_20"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 131
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24f8414a848e624ea76d8e7d911993c
+      internalID: 1418841549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_21"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 136
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cff8ea41c4f0dd4f875369f2d8824c7
+      internalID: -424501807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_22"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf10de2ca763ee4aa6cae617649c9e0
+      internalID: 96698356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_23"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 64
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55322d56e5dee8d4ea86e693cad5a83e
+      internalID: 1726891173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_24"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 46
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61480e6a3c660024daefabeec845aeaa
+      internalID: 1214981000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_25"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97d08c3185b4cd46bd7156bfa8819bf
+      internalID: -462527585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_26"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 68
+        width: 80
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6aa45163fef3949a382fbae8296bd8
+      internalID: 1107003769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_27"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 176
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f9bd6a819247a42ad94f8d2798eb0a
+      internalID: -744953806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_28"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 32
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c802bd55ad6414a9dbd4a98beb9bc2
+      internalID: 1628775684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_29"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 6
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475ec14917b40f547abaffdbb77df38f
+      internalID: 1663688773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_30"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884e2d45ce8b314e99df0c867a2c1b5
+      internalID: -685004373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_31"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 12
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859f757649542ed43b7b4fdfa9ee0b09
+      internalID: 124975641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xF6bel Sheet new CP_32"
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 5
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52638a8a6c1b414aa7b90fe14783eeb
+      internalID: 456364235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "M\xF6bel Sheet new CP_0": -268383366
+      "M\xF6bel Sheet new CP_1": 1219927024
+      "M\xF6bel Sheet new CP_10": -145828463
+      "M\xF6bel Sheet new CP_11": -817518340
+      "M\xF6bel Sheet new CP_12": 750585117
+      "M\xF6bel Sheet new CP_13": -1298962753
+      "M\xF6bel Sheet new CP_14": -1995432970
+      "M\xF6bel Sheet new CP_15": -787033332
+      "M\xF6bel Sheet new CP_16": -388558285
+      "M\xF6bel Sheet new CP_17": -1768504611
+      "M\xF6bel Sheet new CP_18": 267173271
+      "M\xF6bel Sheet new CP_19": 108158563
+      "M\xF6bel Sheet new CP_2": -1351951535
+      "M\xF6bel Sheet new CP_20": 1418841549
+      "M\xF6bel Sheet new CP_21": -424501807
+      "M\xF6bel Sheet new CP_22": 96698356
+      "M\xF6bel Sheet new CP_23": 1726891173
+      "M\xF6bel Sheet new CP_24": 1214981000
+      "M\xF6bel Sheet new CP_25": -462527585
+      "M\xF6bel Sheet new CP_26": 1107003769
+      "M\xF6bel Sheet new CP_27": -744953806
+      "M\xF6bel Sheet new CP_28": 1628775684
+      "M\xF6bel Sheet new CP_29": 1663688773
+      "M\xF6bel Sheet new CP_3": -178212674
+      "M\xF6bel Sheet new CP_30": -685004373
+      "M\xF6bel Sheet new CP_31": 124975641
+      "M\xF6bel Sheet new CP_32": 456364235
+      "M\xF6bel Sheet new CP_4": 1946535819
+      "M\xF6bel Sheet new CP_5": 391164262
+      "M\xF6bel Sheet new CP_6": -724065707
+      "M\xF6bel Sheet new CP_7": 628849045
+      "M\xF6bel Sheet new CP_8": -1916602090
+      "M\xF6bel Sheet new CP_9": -963284056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
