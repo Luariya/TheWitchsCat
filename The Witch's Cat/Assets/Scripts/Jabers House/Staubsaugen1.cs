@@ -5,6 +5,8 @@ using UnityEngine;
 public class Staubsaugen1 : MonoBehaviour
 {
     public GameObject barrierToDisable;  // Assign the barrier GameObject in the Inspector
+    public Animator roombaAnimator;       // Reference to the Roomba's Animator component
+    public string idleAnimation = "Roomba_Idle";
     public float disableDuration = 3f;   // Set the duration for the barrier to be disabled
 
     private bool isBarrierDisabled = false;
@@ -46,6 +48,9 @@ public class Staubsaugen1 : MonoBehaviour
 
             // Set the flag to indicate that the barrier is currently disabled
             isBarrierDisabled = true;
+
+            // Pause the Roomba's idle animation
+            roombaAnimator.speed = 0f;
         }
     }
 
@@ -60,6 +65,9 @@ public class Staubsaugen1 : MonoBehaviour
             // Reset the flag and the disable duration
             isBarrierDisabled = false;
             disableDuration = 3f;  // Reset the duration for the next use
+
+            // Resume the Roomba's idle animation
+            roombaAnimator.speed = 1f;
         }
     }
 }

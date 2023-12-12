@@ -18,9 +18,15 @@ public class CatMovement : MonoBehaviour
 
    private void Start()
     {
-       // animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
+       
     }
 
+    private void Inventory_ItemUsed(object sender, InventoryEventArgs e)
+    {
+        IInventoryItem item = e.Item;
+
+    }
 
     private void Update()
     {

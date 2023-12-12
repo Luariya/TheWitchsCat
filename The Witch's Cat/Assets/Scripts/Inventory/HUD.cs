@@ -8,6 +8,7 @@ public class HUD : MonoBehaviour
 {
     public Inventory Inventory;
     public Transform inventoryPanel;
+    private SimpleItem selectedKey;
 
     private void Start()
     {
@@ -31,12 +32,25 @@ public class HUD : MonoBehaviour
             if(image != null && !image.enabled)
             {
                 image.enabled = true;
-                slot.GetComponent<SimpleItem>().SetData(e.Item); 
+                slot.GetComponent<SimpleItem>().SetData(e.Item, GameObject.FindWithTag("Door"));
+                slot.GetComponent<SimpleItem>().interactableTarget = GameObject.FindWithTag("Door");
                 image.sprite = e.Item.Image;
                 Debug.Log("in Inventory");
+                selectedKey = slot.GetComponent<SimpleItem>();
 
                 break;
             }
+        }
+    }
+    public void OnDoorClicked()
+    {
+        // Check if a key is selected
+        if (selectedKey != null)
+        {
+            // Use the selected key on the door
+            selectedKey.UseItem();
+            // Clear the selected key
+            selectedKey = null;
         }
     }
 }
