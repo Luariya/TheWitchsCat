@@ -67,6 +67,9 @@ public class CatMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
+
+    [SerializeField] private AudioSource collectionSoundEffect;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         IInventoryItem item = collision.collider.GetComponent<IInventoryItem>();
@@ -74,6 +77,8 @@ public class CatMovement : MonoBehaviour
         {
             inventory.AddItem(item);
             Debug.Log("Collision detected");
+
+            collectionSoundEffect.Play();
         }
     }
 
