@@ -2896,6 +2896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &243607866
 GameObject:
   m_ObjectHideFlags: 0
@@ -7691,7 +7692,7 @@ MonoBehaviour:
   textComponent: {fileID: 1859489232}
   lines:
   - mhm...
-  - That was a weird dream... or was it a dream? It feels like different.
+  - That was a weird dream... or was it a dream? It didn't feel like it.
   - ' I feel like I forgot something... I should investigate it. But first I need
     food.'
   textSpeed: 0.3
@@ -9800,6 +9801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &632644337
 GameObject:
   m_ObjectHideFlags: 0
