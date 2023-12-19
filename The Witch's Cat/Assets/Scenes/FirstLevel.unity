@@ -2642,7 +2642,7 @@ MonoBehaviour:
   TextPanel: {fileID: 193637209}
   textComponent: {fileID: 1914095113}
   lines:
-  - 
+  - test
   - '*looks like the cat is distracted by the fire*'
   - If time could only pass faster...
   textSpeed: 0.3
@@ -2896,7 +2896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &243607866
 GameObject:
   m_ObjectHideFlags: 0
@@ -9801,7 +9800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &632644337
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using System;
-using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
 public class TextboxTrigger : MonoBehaviour
 {
@@ -15,11 +12,11 @@ public class TextboxTrigger : MonoBehaviour
 
     public string[] lines = null;
     public float textSpeed = 0.3f;
-    
+
     private bool allowNextLine = true;
 
     private int index = 0;
-    
+
     private void Start()
     {
         if (TextPanel != null)
@@ -46,7 +43,6 @@ public class TextboxTrigger : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-
             allowNextLine = true;
         }
     }
@@ -67,18 +63,45 @@ public class TextboxTrigger : MonoBehaviour
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
-
         }
         else
         {
             TextPanel.SetActive(false);
-            
         }
     }
 
     public void StartMonologue()
     {
         index = 0;
-        StartCoroutine(TypeLine());
+        textComponent.text = lines[index]; // Display the first line immediately
+        StartCoroutine(TypeLineWithDelay());
+    }
+
+    IEnumerator TypeLineWithDelay()
+    {
+        yield return new WaitForSeconds(textSpeed); // Add a delay before typing the line
+
+        if (index < lines.Length - 1)
+        {
+            index++;
+            textComponent.text = string.Empty;
+            StartCoroutine(TypeLine());
+        }
+        else
+        {
+            TextPanel.SetActive(false);
+        }
+    }
+
+    IEnumerator TypeFirstLine()
+    {
+        foreach (char c in lines[index].ToCharArray())
+        {
+            textComponent.text += c;
+            yield return new WaitForSeconds(textSpeed);
+        }
+
+        // After typing the first line, allow the next line
+        allowNextLine = true;
     }
 }
