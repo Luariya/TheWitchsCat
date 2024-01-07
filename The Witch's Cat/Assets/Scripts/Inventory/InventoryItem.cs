@@ -9,6 +9,8 @@ public interface IInventoryItem
 
     Sprite Image { get;  }
 
+    Activatable MyActivatable { get;  }
+
     void OnPickup();
    
 }

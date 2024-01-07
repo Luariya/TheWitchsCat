@@ -2201,7 +2201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!1 &166232249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,7 +2896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &243607866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3564,7 +3563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &255838306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8961,7 +8960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &601510080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9801,7 +9800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &632644337
 GameObject:
   m_ObjectHideFlags: 0
@@ -11964,6 +11962,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1430736473}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &768134962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8084973892347837073, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
+  m_PrefabInstance: {fileID: 4684359853687974943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &768134966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768134962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &786705000
 GameObject:
   m_ObjectHideFlags: 0
@@ -12239,7 +12258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &809186755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21268,6 +21287,7 @@ GameObject:
   - component: {fileID: 1037103620}
   - component: {fileID: 1037103619}
   - component: {fileID: 1037103618}
+  - component: {fileID: 1037103621}
   m_Layer: 0
   m_Name: Schuppenblockade
   m_TagString: Door
@@ -21387,6 +21407,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1037103621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037103617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab3bbd6ecf29b64497e28ff6dbf0b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1044132040
 GameObject:
   m_ObjectHideFlags: 0
@@ -23283,7 +23315,7 @@ Transform:
   m_GameObject: {fileID: 1177082560}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.49, y: -14.73, z: -1}
+  m_LocalPosition: {x: 24.92, y: 13.11, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23303,7 +23335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "Schl\xFCssel"
   itemImage: {fileID: 21300000, guid: 851ce79b0d1eb464f9af598e81248f09, type: 3}
-  interactableTarget: {fileID: 1037103617}
+  myInteractable: {fileID: 1037103621}
 --- !u!1 &1180217750 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1873446790146873061, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
@@ -23494,7 +23526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &1185672452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23767,7 +23799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &1207381921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29152,6 +29184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0adadee914c13dc46a2b8730f6dc8221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedItem: {fileID: 0}
 --- !u!4 &1428858970
 Transform:
   m_ObjectHideFlags: 0
@@ -37851,7 +37884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &1684391016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38014,7 +38047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &1689148023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42037,7 +42070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &1948481843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44160,7 +44193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  interactableTarget: {fileID: 0}
+  myInteractable: {fileID: 0}
 --- !u!114 &2140975669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44789,11 +44822,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913693680034331544, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.66
+      value: 22.84
       objectReference: {fileID: 0}
     - target: {fileID: 5913693680034331544, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.55
+      value: 12.71
       objectReference: {fileID: 0}
     - target: {fileID: 5913693680034331544, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
       propertyPath: m_LocalPosition.z
@@ -44890,6 +44923,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2685583805456097462, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1190177133}
+    - targetCorrespondingSourceObject: {fileID: 8084973892347837073, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 768134966}
   m_SourcePrefab: {fileID: 100100000, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

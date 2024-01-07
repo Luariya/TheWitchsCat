@@ -33,7 +33,7 @@ public class HUD : MonoBehaviour
             {
                 image.enabled = true;
                 slot.GetComponent<SimpleItem>().SetData(e.Item, GameObject.FindWithTag("Door"));
-                slot.GetComponent<SimpleItem>().interactableTarget = GameObject.FindWithTag("Door");
+                //slot.GetComponent<SimpleItem>().interactableTarget = GameObject.FindWithTag("Door");
                 image.sprite = e.Item.Image;
                 Debug.Log("in Inventory");
                 selectedKey = slot.GetComponent<SimpleItem>();

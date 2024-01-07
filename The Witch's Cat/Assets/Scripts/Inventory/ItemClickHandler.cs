@@ -14,11 +14,11 @@ public class ItemClickHandler : MonoBehaviour
     }
     public void OnItemClicked()
     {
-       
-
         Debug.Log(myItem.Name);
-        myItem.UseItem();
 
+        //myItem.UseItem();
+
+        _Inventory.selectedItem = myItem;
 
     }
 }

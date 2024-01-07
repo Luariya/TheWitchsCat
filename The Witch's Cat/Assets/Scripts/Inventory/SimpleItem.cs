@@ -7,17 +7,11 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
 {
     public string itemName;
     public Sprite itemImage;
-
-    public GameObject interactableTarget;
+    public Activatable myInteractable;
 
     public string Name => itemName;
     public Sprite Image => itemImage;
-
-   
-
-
-
-   
+    public Activatable MyActivatable => myInteractable ;
 
     public void OnPickup()
     {
@@ -31,24 +25,12 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
     {
         itemName = item.Name;
         itemImage = item.Image;
-        interactableTarget = target;
+        myInteractable = item.MyActivatable;
 
     }
 
     public void UseItem()
     {
-        if (interactableTarget != null)
-        {
-            // Handle interaction (e.g., open a door)
-            interactableTarget.SetActive(false);
-            Debug.Log($"Used {itemName} on {interactableTarget.name}");
-
-            
-            Destroy(gameObject);
-        }
-        else
-        {
-            Debug.LogWarning("No interactable target set for this item.");
-        }
+        Destroy(gameObject);
     }
 }

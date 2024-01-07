@@ -13,6 +13,8 @@ public class Inventory : MonoBehaviour
 
     private static Inventory instance;
 
+    public SimpleItem selectedItem = null;
+
     public static Inventory Instance
     {
         get
