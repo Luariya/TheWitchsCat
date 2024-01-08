@@ -2734,6 +2734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &243607866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,6 +3924,7 @@ GameObject:
   - component: {fileID: 295393392}
   - component: {fileID: 295393391}
   - component: {fileID: 295393390}
+  - component: {fileID: 295393393}
   m_Layer: 0
   m_Name: Bett MB
   m_TagString: Untagged
@@ -3962,7 +3964,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.05178964}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3973,7 +3975,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.625, y: 2.6875}
+  m_Size: {x: 2.625, y: 2.5839207}
   m_EdgeRadius: 0
 --- !u!212 &295393391
 SpriteRenderer:
@@ -4015,7 +4017,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 267173271, guid: c901ad2dcdabfe74bb2393eacd79864f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4042,6 +4044,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1430736473}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &295393393
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295393389}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.073688924}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.625, y: 2.6875}
+    newSize: {x: 2.625, y: 2.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.625, y: 2.540122}
+  m_EdgeRadius: 0
 --- !u!1 &299332738
 GameObject:
   m_ObjectHideFlags: 0
@@ -8906,6 +8953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67d551b289a318449f84a04c0f5fbae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &632644337
 GameObject:
   m_ObjectHideFlags: 0
@@ -42303,11 +42351,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 884939819833719132, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.98
+      value: 30.1
       objectReference: {fileID: 0}
     - target: {fileID: 884939819833719132, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.85
+      value: -1.58
       objectReference: {fileID: 0}
     - target: {fileID: 884939819833719132, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42344,7 +42392,7 @@ PrefabInstance:
     - target: {fileID: 1566170545645895230, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -497339471, guid: 634ac95206ce2e54ba3fa9106d617d36, type: 3}
+      objectReference: {fileID: -1611583410, guid: 8bbc3bce434d3e848a20698939ff680d, type: 3}
     - target: {fileID: 1566170545645895230, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -42359,7 +42407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1566170545645895230, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5788178201262011194, guid: 601577ce3aa69ff4a874204d421bb261, type: 3}
       propertyPath: m_Name
@@ -42863,7 +42911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913693680034331544, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.95
+      value: 5.09
       objectReference: {fileID: 0}
     - target: {fileID: 5913693680034331544, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
       propertyPath: m_LocalPosition.y
