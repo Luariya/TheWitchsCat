@@ -69,5 +69,8 @@ public class MiauTrigger : MonoBehaviour
     {
         canBeTriggered = true;
     }
-
+    public void Destroy()
+    {
+        Destroy(gameObject);
+    }
 }
