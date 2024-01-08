@@ -9,6 +9,7 @@ TagManager:
   - Stecker
   - Rucksack
   - Door
+  - Fire
   layers:
   - Default
   - TransparentFX

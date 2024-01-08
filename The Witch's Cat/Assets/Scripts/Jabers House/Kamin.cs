@@ -39,6 +39,8 @@ public class Kamin : MonoBehaviour
             {
                 // Resume movement only if the specific asset is clicked
                 ResumeMovement();
+                // Make the clock disappear
+                hit.collider.gameObject.SetActive(false);
             }
         }
     }
@@ -61,6 +63,12 @@ public class Kamin : MonoBehaviour
                 playerRigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
             }
         }
+
+        // Disable the game object with the tag "Fire"
+        GameObject fireObject = GameObject.FindGameObjectWithTag("Fire");
+        if (fireObject != null)
+        {
+            fireObject.SetActive(false);
+        }
     }
 }
-

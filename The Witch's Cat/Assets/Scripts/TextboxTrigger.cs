@@ -11,7 +11,7 @@ public class TextboxTrigger : MonoBehaviour
     private TextMeshProUGUI textComponent = null;
 
     public string[] lines = null;
-    public float textSpeed = 0.3f;
+    public float textSpeed = 0f;
 
     private bool allowNextLine = true;
 
@@ -73,8 +73,11 @@ public class TextboxTrigger : MonoBehaviour
     public void StartMonologue()
     {
         index = 0;
-        textComponent.text = lines[index]; // Display the first line immediately
-        StartCoroutine(TypeLineWithDelay());
+        textComponent.text = lines[index]; // Display the entire line immediately
+        TextPanel.SetActive(true); // Make sure the panel is active
+
+        // After displaying the first line, allow the next line
+        allowNextLine = true;
     }
 
     IEnumerator TypeLineWithDelay()
