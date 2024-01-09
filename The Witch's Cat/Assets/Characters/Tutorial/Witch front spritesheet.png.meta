@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 55f2263a47be689489cd08e0591514b7
+guid: c631e927fc4e99a4b93a337750935d8a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,43 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Witch back Tileset_0
+      name: Witch front spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 36
-        width: 48
+        y: 0
+        width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 16, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1a0e7819479e04e9e606072e002e73
-      internalID: 1087632662
+      spriteID: 1d8e9b83004b6c14388857db0da38533
+      internalID: -761568286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Witch back Tileset_1
+      name: Witch front spritesheet_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 36
-        width: 48
+        x: 32
+        y: 0
+        width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 16, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c63b72efc64d9a40aaa49f796e68d96
-      internalID: -360817855
+      spriteID: cf2c8871641630d42925b8e38df098a3
+      internalID: -1827810424
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Witch back Tileset_0: 1087632662
-      Witch back Tileset_1: -360817855
+      Witch front spritesheet_0: -761568286
+      Witch front spritesheet_1: -1827810424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
