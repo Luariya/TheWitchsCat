@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Street.unity
     guid: 3c150bf29dc4ab44194229f8761429fd
+  - enabled: 1
+    path: Assets/Scenes/CityCentre.unity
+    guid: 982be3b9cbd46a746a75302b058d1050
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 25e404f16ac887c4eac5b99b581f2365
+  - enabled: 1
+    path: Assets/Scenes/WitchHut.unity
+    guid: a4060e493eb93ee4698759bbfbc67919
   m_configObjects: {}
