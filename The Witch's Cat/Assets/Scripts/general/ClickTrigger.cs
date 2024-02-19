@@ -11,6 +11,7 @@ public class ClickTrigger : MonoBehaviour
     [SerializeField]
     private bool isActivated = true;
     public string NextLevels;
+    private bool isTextActive = false;
 
     [SerializeField]
     private UnityEvent OnTrigger;
@@ -18,12 +19,10 @@ public class ClickTrigger : MonoBehaviour
     private void Update()
     {
         // Check if the left mouse button is clicked
-        if (Input.GetMouseButtonDown(0) && isActivated)
+        if (isActivated && !isTextActive && Input.GetMouseButtonDown(0))
         {
-            // Raycast to determine if the click hits this object
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-            // If the click hits this object, trigger the event
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 OnTrigger?.Invoke();
@@ -41,5 +40,10 @@ public class ClickTrigger : MonoBehaviour
     public void NextLevel()
     {
         SceneManager.LoadScene(NextLevels);
+    }
+
+    public void SetTextActive(bool isActive)
+    {
+        isTextActive = isActive;
     }
 }

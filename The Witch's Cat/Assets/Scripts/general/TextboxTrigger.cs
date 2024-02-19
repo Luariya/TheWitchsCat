@@ -2,24 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using System;
-using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
-public class NextLevel : MonoBehaviour
+public class TextboxTrigger : MonoBehaviour
 {
     [SerializeField]
-    private GameObject TextPanel; // Reference to the MeowTextPanel GameObject
+    private GameObject TextPanel; 
     [SerializeField]
     private TextMeshProUGUI textComponent = null;
 
     public string[] lines = null;
-    public float textSpeed = 0.3f;
-    
+    public float textSpeed = 0f;
+
     private bool allowNextLine = true;
 
     private int index = 0;
-    public string NextLevels;
+
+    
 
     private void Start()
     {
@@ -47,7 +45,6 @@ public class NextLevel : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-
             allowNextLine = true;
         }
     }
@@ -68,18 +65,42 @@ public class NextLevel : MonoBehaviour
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
-
         }
         else
         {
             TextPanel.SetActive(false);
-            SceneManager.LoadScene(NextLevels);
+            
         }
     }
 
     public void StartMonologue()
     {
         index = 0;
-        StartCoroutine(TypeLine());
+        textComponent.text = lines[index]; // Display the entire line immediately
+        TextPanel.SetActive(true); // Make sure the panel is active
+
+        // After displaying the first line, allow the next line
+        allowNextLine = true;
+        
     }
+
+    IEnumerator TypeLineWithDelay()
+    {
+        yield return new WaitForSeconds(textSpeed); 
+
+        if (index < lines.Length - 1)
+        {
+            index++;
+            textComponent.text = string.Empty;
+            StartCoroutine(TypeLine());
+        }
+        else
+        {
+            TextPanel.SetActive(false);
+          
+        }
+    }
+    
+
+
 }

@@ -665,6 +665,18 @@ PrefabInstance:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 691886838}
+    - target: {fileID: 8559779846146439428, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
+      propertyPath: textObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559779846146439428, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
+      propertyPath: textObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1199840091}
+    - target: {fileID: 8559779846146439428, guid: b6bcb633fd2737f43b664d5c0fdb2e49, type: 3}
+      propertyPath: textObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1948942669}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3286,7 +3298,7 @@ PrefabInstance:
     - target: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: OnFirstEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1948942673}
+      objectReference: {fileID: 0}
     - target: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: OnFirstEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -4187,7 +4199,7 @@ MonoBehaviour:
   - Where am I? Who is that?
   - Maybe I can get their attention if I meow...
   - (Press on the cat to meow)
-  textSpeed: 0.3
+  textSpeed: 0
   TextboxPanel: {fileID: 1199840091}
 --- !u!1 &1227030942
 GameObject:
@@ -5308,7 +5320,6 @@ GameObject:
   - component: {fileID: 1948942672}
   - component: {fileID: 1948942671}
   - component: {fileID: 1948942670}
-  - component: {fileID: 1948942673}
   - component: {fileID: 1948942674}
   m_Layer: 5
   m_Name: meow panel?
@@ -5376,25 +5387,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: -200.00006, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1948942673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948942669}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44f3e458f28a99543ad69089ae16bce3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextPanel: {fileID: 1948942669}
-  textComponent: {fileID: 1153800416}
-  lines:
-  - 
-  - A witch? She looks...familiar...
-  - I'm sure I've seen her before...
-  textSpeed: 0.3
 --- !u!114 &1948942674
 MonoBehaviour:
   m_ObjectHideFlags: 0

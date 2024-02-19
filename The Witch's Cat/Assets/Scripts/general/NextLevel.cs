@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
-public class TextboxTrigger : MonoBehaviour
+public class NextLevel : MonoBehaviour
 {
     [SerializeField]
     private GameObject TextPanel; // Reference to the MeowTextPanel GameObject
@@ -11,11 +14,12 @@ public class TextboxTrigger : MonoBehaviour
     private TextMeshProUGUI textComponent = null;
 
     public string[] lines = null;
-    public float textSpeed = 0f;
-
+    public float textSpeed = 0.3f;
+    
     private bool allowNextLine = true;
 
     private int index = 0;
+    public string NextLevels;
 
     private void Start()
     {
@@ -67,6 +71,8 @@ public class TextboxTrigger : MonoBehaviour
         else
         {
             TextPanel.SetActive(false);
+            SceneManager.LoadScene("FirstLevel");
+
         }
     }
 
@@ -78,11 +84,12 @@ public class TextboxTrigger : MonoBehaviour
 
         // After displaying the first line, allow the next line
         allowNextLine = true;
+
     }
 
     IEnumerator TypeLineWithDelay()
     {
-        yield return new WaitForSeconds(textSpeed); // Add a delay before typing the line
+        yield return new WaitForSeconds(textSpeed);
 
         if (index < lines.Length - 1)
         {
@@ -93,18 +100,8 @@ public class TextboxTrigger : MonoBehaviour
         else
         {
             TextPanel.SetActive(false);
+
         }
     }
 
-    IEnumerator TypeFirstLine()
-    {
-        foreach (char c in lines[index].ToCharArray())
-        {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
-        }
-
-        // After typing the first line, allow the next line
-        allowNextLine = true;
-    }
 }

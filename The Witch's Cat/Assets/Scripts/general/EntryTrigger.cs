@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MiauTrigger : MonoBehaviour
+public class EntryTrigger : MonoBehaviour
 {
     [SerializeField]
     private bool destroyAfterTriggered = false;

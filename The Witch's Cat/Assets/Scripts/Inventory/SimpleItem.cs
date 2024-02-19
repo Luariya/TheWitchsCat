@@ -8,6 +8,7 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
     public string itemName;
     public Sprite itemImage;
     public Activatable myInteractable;
+    private bool activated;
 
     public string Name => itemName;
     public Sprite Image => itemImage;
