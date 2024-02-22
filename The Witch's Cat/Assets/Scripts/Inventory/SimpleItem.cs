@@ -8,7 +8,7 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
     public string itemName;
     public Sprite itemImage;
     public Activatable myInteractable;
-    [SerializeField] private bool Active = true;
+
 
     public string Name => itemName;
     public Sprite Image => itemImage;

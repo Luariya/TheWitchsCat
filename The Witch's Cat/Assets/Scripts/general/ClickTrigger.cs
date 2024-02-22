@@ -6,15 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class ClickTrigger : MonoBehaviour
 {
-    [SerializeField]
-    private bool destroyAfterTriggered = false;
-    [SerializeField]
-    private bool isActivated = true;
+    [SerializeField] private bool destroyAfterTriggered = false;
+    [SerializeField] private bool isActivated = true;
     public string NextLevels;
     private bool isTextActive = false;
 
-    [SerializeField]
-    private UnityEvent OnTrigger;
+    [SerializeField] private UnityEvent OnTrigger;
 
     private void Update()
     {
@@ -25,6 +22,7 @@ public class ClickTrigger : MonoBehaviour
 
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
+                Debug.Log("Clicked on SimpleItem");
                 OnTrigger?.Invoke();
 
                 if (destroyAfterTriggered)
@@ -37,6 +35,7 @@ public class ClickTrigger : MonoBehaviour
     {
         isActivated = true;
     }
+
     public void NextLevel()
     {
         SceneManager.LoadScene(NextLevels);
