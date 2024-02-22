@@ -122,18 +122,14 @@ public class CatMovement : MonoBehaviour
                     }
 
                     Activatable activatable = hit.collider.GetComponent<Activatable>();
-
-                    if (activatable)
+                    if (activatable != null && inventory.selectedItem != null && inventory.selectedItem.MyActivatable == activatable)
                     {
-                        if (inventory.selectedItem.MyActivatable == activatable)
-                        {
-                            activatable.Activate();
-                            inventory.selectedItem.UseItem();
-                            inventory.selectedItem = null;
-                        }
-
+                        activatable.Activate();
+                        inventory.selectedItem.UseItem();
+                        inventory.selectedItem = null;
                         return;
                     }
+                
                 }
 
                 // Deselects the selected item when not clicking on an activatable or item

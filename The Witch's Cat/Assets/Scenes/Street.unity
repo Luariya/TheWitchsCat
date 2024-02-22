@@ -179,6 +179,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &735830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,7 +365,7 @@ Transform:
   m_GameObject: {fileID: 3296395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.522, y: 3.63, z: 0}
+  m_LocalPosition: {x: -8.42, y: -4.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2471,6 +2472,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &310971224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2679,6 +2681,7 @@ MonoBehaviour:
   itemName: Coin
   itemImage: {fileID: 202250802, guid: deb97d2b98e5a764884c445346a34224, type: 3}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!58 &378214674
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2904,6 +2907,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &428244276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3216,90 +3220,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &505389840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 505389842}
-  - component: {fileID: 505389841}
-  m_Layer: 0
-  m_Name: Stein
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &505389841
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505389840}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 41db3394bdd544c428475c30d5c8f334, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &505389842
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505389840}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.36, y: -9.54, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &505960146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,6 +3880,7 @@ MonoBehaviour:
   itemName: Coin
   itemImage: {fileID: 202250802, guid: deb97d2b98e5a764884c445346a34224, type: 3}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!58 &582021012
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4056,7 +3977,7 @@ Transform:
   m_GameObject: {fileID: 582021010}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.57, y: 2.04, z: 0}
+  m_LocalPosition: {x: -22.28, y: -6.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4248,6 +4169,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &587496931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4710,6 +4632,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1449120386}
     m_Modifications:
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1532828572}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1638177751}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7785306323477191694, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5491,7 +5453,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -497339471, guid: 634ac95206ce2e54ba3fa9106d617d36, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5512,7 +5474,7 @@ Transform:
   m_GameObject: {fileID: 910915568}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.54, y: 5.28, z: 0}
+  m_LocalPosition: {x: 23.46, y: 5.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14223,6 +14185,8 @@ GameObject:
   m_Component:
   - component: {fileID: 950971575}
   - component: {fileID: 950971574}
+  - component: {fileID: 950971576}
+  - component: {fileID: 950971577}
   m_Layer: 0
   m_Name: Stein
   m_TagString: Untagged
@@ -14291,12 +14255,63 @@ Transform:
   m_GameObject: {fileID: 950971573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.29, y: -8.26, z: 0}
+  m_LocalPosition: {x: 13.358, y: -8.148, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &950971576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950971573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f624ac6845319bf40a2aeb7a13c7da40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Stone
+  itemImage: {fileID: 21300000, guid: 41db3394bdd544c428475c30d5c8f334, type: 3}
+  myInteractable: {fileID: 1019275211}
+  Active: 1
+--- !u!58 &950971577
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950971573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.021765634}
+  serializedVersion: 2
+  m_Radius: 0.18176563
 --- !u!1 &957913413
 GameObject:
   m_ObjectHideFlags: 0
@@ -14353,6 +14368,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &957913416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14514,7 +14530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1001424272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14530,6 +14546,7 @@ MonoBehaviour:
   itemName: Coin
   itemImage: {fileID: 202250802, guid: deb97d2b98e5a764884c445346a34224, type: 3}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!58 &1001424273
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14626,7 +14643,7 @@ Transform:
   m_GameObject: {fileID: 1001424271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.48, y: -6.28, z: 0}
+  m_LocalPosition: {x: -8.31, y: -6.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14715,6 +14732,7 @@ GameObject:
   - component: {fileID: 1019275210}
   - component: {fileID: 1019275209}
   - component: {fileID: 1019275208}
+  - component: {fileID: 1019275211}
   m_Layer: 0
   m_Name: Vending Machine_0
   m_TagString: Untagged
@@ -14828,12 +14846,25 @@ Transform:
   m_GameObject: {fileID: 1019275207}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.97, y: 3.62, z: 0}
+  m_LocalPosition: {x: -8.42, y: -4.7, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1019275211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019275207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab3bbd6ecf29b64497e28ff6dbf0b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 1001424271}
 --- !u!1 &1026784465
 GameObject:
   m_ObjectHideFlags: 0
@@ -15849,142 +15880,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258908101}
   m_CullTransparentMesh: 1
---- !u!1 &1266980320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1266980324}
-  - component: {fileID: 1266980323}
-  - component: {fileID: 1266980322}
-  - component: {fileID: 1266980321}
-  m_Layer: 0
-  m_Name: Coin (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1266980321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266980320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f624ac6845319bf40a2aeb7a13c7da40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: Coin
-  itemImage: {fileID: 202250802, guid: deb97d2b98e5a764884c445346a34224, type: 3}
-  myInteractable: {fileID: 0}
---- !u!58 &1266980322
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266980320}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.25
---- !u!212 &1266980323
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266980320}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 202250802, guid: deb97d2b98e5a764884c445346a34224, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.5}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1266980324
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266980320}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.58, y: 5.28, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1305059325
 GameObject:
   m_ObjectHideFlags: 0
@@ -17371,7 +17266,7 @@ Transform:
   m_GameObject: {fileID: 1490002430}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.95, y: 3.517497, z: 0}
+  m_LocalPosition: {x: -7.29, y: 3.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17563,6 +17458,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &1513183394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17923,6 +17819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab3bbd6ecf29b64497e28ff6dbf0b26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 378214670}
 --- !u!1 &1520580638
 GameObject:
   m_ObjectHideFlags: 0
@@ -18187,6 +18084,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1639893275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1532828572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9008368290537055982, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+  m_PrefabInstance: {fileID: 745000834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1548911415
 GameObject:
   m_ObjectHideFlags: 0
@@ -18243,6 +18145,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &1548911418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18406,6 +18309,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &1549358609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19196,6 +19100,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &1756322823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19505,6 +19410,7 @@ MonoBehaviour:
   itemName: Bone
   itemImage: {fileID: -682166490, guid: 9ec0a4b0b5b495d4f845af2a52158d39, type: 3}
   myInteractable: {fileID: 1517714213}
+  Active: 1
 --- !u!61 &1810320083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19993,6 +19899,7 @@ MonoBehaviour:
   itemName: Coin
   itemImage: {fileID: 202250802, guid: deb97d2b98e5a764884c445346a34224, type: 3}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!58 &1922922379
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20089,7 +19996,7 @@ Transform:
   m_GameObject: {fileID: 1922922377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.93, y: 2.78, z: 0}
+  m_LocalPosition: {x: -22.53, y: 2.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21308,6 +21215,7 @@ MonoBehaviour:
   itemName: 
   itemImage: {fileID: 0}
   myInteractable: {fileID: 0}
+  Active: 1
 --- !u!114 &2107126669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21435,12 +21343,10 @@ SceneRoots:
   - {fileID: 1922922381}
   - {fileID: 582021014}
   - {fileID: 1001424275}
-  - {fileID: 1266980324}
   - {fileID: 692901606}
   - {fileID: 2055193544}
   - {fileID: 916563215}
   - {fileID: 950971575}
-  - {fileID: 505389842}
   - {fileID: 910915571}
   - {fileID: 179871408}
   - {fileID: 1490002434}
