@@ -6035,7 +6035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Bone
-  itemImage: {fileID: -682166490, guid: 9ec0a4b0b5b495d4f845af2a52158d39, type: 3}
+  itemImage: {fileID: 550579074, guid: 4733656e50c2f31449f10296196c7e3b, type: 3}
   myInteractable: {fileID: 1517714213}
 --- !u!212 &777103027
 SpriteRenderer:
@@ -15533,7 +15533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Stone
-  itemImage: {fileID: 21300000, guid: 41db3394bdd544c428475c30d5c8f334, type: 3}
+  itemImage: {fileID: -1585814180, guid: 4733656e50c2f31449f10296196c7e3b, type: 3}
   myInteractable: {fileID: 1019275211}
 --- !u!58 &950971577
 CircleCollider2D:
