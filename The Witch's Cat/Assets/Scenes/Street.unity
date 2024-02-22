@@ -6121,6 +6121,7 @@ GameObject:
   - component: {fileID: 910915571}
   - component: {fileID: 910915570}
   - component: {fileID: 910915569}
+  - component: {fileID: 910915572}
   m_Layer: 0
   m_Name: Memory Swoosh_0
   m_TagString: Untagged
@@ -6237,6 +6238,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &910915572
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910915568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c08802c7f62124645bd3a3ebdb75fe0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &916563211
 GameObject:
   m_ObjectHideFlags: 0
@@ -15581,7 +15603,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1751253975, guid: e66d282423431b944883f1b8a6f65b65, type: 3}
+  m_Sprite: {fileID: -98448986, guid: bc4625a53e9d1dc49a1cbf57b8cf1bb0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
