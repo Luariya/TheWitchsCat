@@ -40,11 +40,11 @@ public class CatMovement : MonoBehaviour
         bool isTextBoxActive = checkText(textObjects);
         if (isTextBoxActive)
         {
-            Debug.Log("Textbox is active");
+           
         }
         else
         {
-            Debug.Log("Textbox is not active");
+           
         }
         SetClickTriggerState(!isTextBoxActive);
 
