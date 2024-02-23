@@ -7,16 +7,17 @@ using UnityEngine.SceneManagement;
 public class ClickTrigger : MonoBehaviour
 {
     [SerializeField] private bool destroyAfterTriggered = false;
-    [SerializeField] private bool isActivated = true;
+   
+    [SerializeField] private int neededActivations = 0;
+    private int currentActivations = 0;
     public string NextLevels;
     private bool isTextActive = false;
-
     [SerializeField] private UnityEvent OnTrigger;
-
+   
     private void Update()
     {
         // Check if the left mouse button is clicked
-        if (isActivated && !isTextActive && Input.GetMouseButtonDown(0))
+        if ( !isTextActive && Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
@@ -33,8 +34,15 @@ public class ClickTrigger : MonoBehaviour
 
     public void ActivateTrigger()
     {
-        isActivated = true;
+        currentActivations++;
+        if(currentActivations >= neededActivations)
+        {
+            
+            gameObject.SetActive(true);
+            
+        }
     }
+
 
     public void NextLevel()
     {
@@ -45,4 +53,5 @@ public class ClickTrigger : MonoBehaviour
     {
         isTextActive = isActive;
     }
+
 }

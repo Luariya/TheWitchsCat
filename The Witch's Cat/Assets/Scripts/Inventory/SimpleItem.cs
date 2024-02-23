@@ -2,13 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SimpleItem : MonoBehaviour, IInventoryItem
 {
     public string itemName;
     public Sprite itemImage;
     public Activatable myInteractable;
-
+    public UnityEvent onCollected;
 
     public string Name => itemName;
     public Sprite Image => itemImage;
@@ -18,7 +19,9 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
     {
         
             Debug.Log($"Picked up {itemName}!");
+        onCollected?.Invoke();
             Destroy(gameObject); // For example, destroy the item after pickup
+
        
     }
 
