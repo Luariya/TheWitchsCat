@@ -71,7 +71,7 @@ public class NextLevel : MonoBehaviour
         else
         {
             TextPanel.SetActive(false);
-            SceneManager.LoadScene("FirstLevel");
+            SceneManager.LoadScene(NextLevels);
 
         }
     }
