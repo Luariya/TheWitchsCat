@@ -10,7 +10,8 @@ public class CatMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Inventory inventory;
-    [SerializeField] private bool isMovementEnabled;
+    [SerializeField] private bool isNotInTextbox;
+    private bool isMovementDisabled;
     public  List<GameObject> textObjects;
     [SerializeField] private AudioSource collectionSoundEffect;
     private ClickTrigger[] clickTriggers;
@@ -19,14 +20,22 @@ public class CatMovement : MonoBehaviour
 
     Vector2 movement;
 
-    
+   
+   public void EnableMovement()
+   {
+        isMovementDisabled = false; 
+   }
 
+   public void DisableMovement()
+   {
+        isMovementDisabled = true;
+   }
    private void Start()
-    {
+   {
         // animator = GetComponent<Animator>();
-        isMovementEnabled = false;
+        isNotInTextbox = false;
         clickTriggers = FindObjectsOfType<ClickTrigger>();
-    }
+   }
 
     private void Inventory_ItemUsed(object sender, InventoryEventArgs e)
     {
@@ -51,19 +60,16 @@ public class CatMovement : MonoBehaviour
         Vector2 dir = Vector2.zero;
         if (checkText(textObjects))
         {
-            isMovementEnabled = false;
+            isNotInTextbox = false;
             GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
-
-
         }
         else
         {
-            isMovementEnabled = true;
-            
+            isNotInTextbox = true;
         }
 
        
-        if (isMovementEnabled)
+        if (isNotInTextbox)
         {
             if (Input.GetKey(KeyCode.A))
             {
@@ -90,7 +96,7 @@ public class CatMovement : MonoBehaviour
             dir.Normalize();
             // animator.SetBool("IsMoving", dir.magnitude > 0);
 
-            GetComponent<Rigidbody2D>().velocity = speed * dir;
+            GetComponent<Rigidbody2D>().velocity = (isMovementDisabled) ? Vector2.zero : speed * dir;
             //transform.position += (Vector3)dir * speed * Time.deltaTime;
 
 

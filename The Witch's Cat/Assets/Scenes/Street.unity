@@ -4440,6 +4440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Memories
       objectReference: {fileID: 0}
+    - target: {fileID: 1255509674863980858, guid: e3392795da4e2404ba736edb7bd01476, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2043416441797263933, guid: e3392795da4e2404ba736edb7bd01476, type: 3}
       propertyPath: m_Name
       value: Back
@@ -6677,6 +6681,10 @@ PrefabInstance:
     - target: {fileID: 1873446790146873061, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: m_Name
       value: STONE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873446790146873061, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3261456515266478280, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: m_Size.x
@@ -20328,9 +20336,9 @@ RectTransform:
   - {fileID: 976112537}
   - {fileID: 616103188}
   - {fileID: 621779690}
+  - {fileID: 384215906}
   - {fileID: 468858615}
   - {fileID: 1439348068}
-  - {fileID: 384215906}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

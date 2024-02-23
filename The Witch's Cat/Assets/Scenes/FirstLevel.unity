@@ -622,6 +622,9 @@ MonoBehaviour:
   itemName: Wool
   itemImage: {fileID: 21300000, guid: 89e2359816933fb45abd3d95b157338d, type: 3}
   myInteractable: {fileID: 0}
+  onCollected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &49533554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyAfterTriggered: 1
-  isActivated: 1
+  neededActivations: 0
   NextLevels: 
   OnTrigger:
     m_PersistentCalls:
@@ -5553,7 +5556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyAfterTriggered: 1
-  isActivated: 1
+  neededActivations: 0
   NextLevels: 
   OnTrigger:
     m_PersistentCalls:
@@ -10000,11 +10003,11 @@ RectTransform:
   - {fileID: 119320944}
   - {fileID: 1130834871}
   - {fileID: 481982434}
+  - {fileID: 1711296548}
   - {fileID: 1432926094}
   - {fileID: 403093691}
   - {fileID: 1273893100}
   - {fileID: 1408832836}
-  - {fileID: 1711296548}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -22136,6 +22139,9 @@ MonoBehaviour:
   itemName: "Schl\xFCssel"
   itemImage: {fileID: 21300000, guid: 851ce79b0d1eb464f9af598e81248f09, type: 3}
   myInteractable: {fileID: 1037103621}
+  onCollected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1177082565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22149,7 +22155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyAfterTriggered: 0
-  isActivated: 1
+  neededActivations: 0
   NextLevels: 
   OnTrigger:
     m_PersistentCalls:
@@ -38156,7 +38162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyAfterTriggered: 1
-  isActivated: 1
+  neededActivations: 0
   NextLevels: 
   OnTrigger:
     m_PersistentCalls:
@@ -42998,6 +43004,10 @@ PrefabInstance:
     - target: {fileID: 1255509674863980858, guid: e3392795da4e2404ba736edb7bd01476, type: 3}
       propertyPath: m_Name
       value: Memories
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255509674863980858, guid: e3392795da4e2404ba736edb7bd01476, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6356755494295405790, guid: e3392795da4e2404ba736edb7bd01476, type: 3}
       propertyPath: m_Pivot.x
