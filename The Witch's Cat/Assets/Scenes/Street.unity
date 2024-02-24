@@ -17557,6 +17557,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 1001424271}
+  neededDeactivations: 1
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1019275212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17656,9 +17660,9 @@ MonoBehaviour:
   lines:
   - 
   - Oh? What's this? A big picture? I've never seen this before.
-  - 'The person on it has the same hat as the woman from my dream! '
-  - I need to find them. Maybe they can help me find her!
-  - But where can I find them? Maybe where lots of people are... But how do i get
+  - The person on it has the same hat as the woman from my dream! It has to be her!
+  - I need to find her! I have so many questions about my past.
+  - But where can I find her? Maybe where lots of people are... But how do I get
     there...
   textSpeed: 0
 --- !u!114 &1026784468
@@ -21335,6 +21339,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 378214670}
+  neededDeactivations: 1
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1517714214
 MonoBehaviour:
   m_ObjectHideFlags: 0

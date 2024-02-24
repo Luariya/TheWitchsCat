@@ -14,4 +14,18 @@ public class LevelSelection : MonoBehaviour
     {
         SceneManager.LoadScene("Street");
     }
+    public void ThirdLevel()
+    {
+        SceneManager.LoadScene("CityCentre");
+    }
+
+    public void FourthLevel()
+    {
+        SceneManager.LoadScene("Forest");
+    }
+
+    public void FifthLevel()
+    {
+        SceneManager.LoadScene("WitchHut");
+    }
 }
