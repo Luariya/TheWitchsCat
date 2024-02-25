@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class SimpleItem : MonoBehaviour, IInventoryItem
 {
@@ -35,6 +36,15 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
 
     public void UseItem()
     {
-        Destroy(gameObject);
+
+        itemName = "";
+        itemImage = null;
+        myInteractable = null;
+
+        Image image = transform.GetChild(0).GetComponent<Image>();
+        image.sprite = itemImage;
+        image.enabled = false;
+
+
     }
 }
