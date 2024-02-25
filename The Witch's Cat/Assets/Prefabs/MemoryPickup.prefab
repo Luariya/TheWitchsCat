@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 884939819833719132}
   - component: {fileID: 1566170545645895230}
   - component: {fileID: 365802680658103806}
-  - component: {fileID: 7130669740781793015}
   - component: {fileID: 7447491880970326345}
+  - component: {fileID: 7801275356287175596}
   m_Layer: 0
   m_Name: MemoryPickup
   m_TagString: Untagged
@@ -122,24 +122,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7130669740781793015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5788178201262011194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df2827f7c26373a4b9211fb28221083b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyAfterTriggered: 1
-  isActivated: 1
-  NextLevels: 
-  OnTrigger:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!95 &7447491880970326345
 Animator:
   serializedVersion: 5
@@ -161,3 +143,45 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7801275356287175596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5788178201262011194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661ada72043c4d646aaf1285d71f8282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAfterTriggered: 1
+  neededActivations: 0
+  NextLevels: 
+  OnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
