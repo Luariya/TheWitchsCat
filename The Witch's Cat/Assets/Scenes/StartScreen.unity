@@ -863,7 +863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73, y: 0}
+  m_AnchoredPosition: {x: 73, y: 184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &97441715
@@ -886,14 +886,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nelly - Game Design
-
-
-    Toni - Art and Animation
-
-
-    In loving memory
-    of Mauz'
+  m_text: "Nelly - Game Design and Coding\n\nToni - Art and Animation\n\nMusic: \nMenu
+    - \u201EGentle Casual Gaming Loop\u201C by Juhani Junkala\r\nJaber\u2019s House
+    -  \u201EGentle Sunlight\u201C by Arthur Vyncke\r\nStreet \u2013 \u201EBittersweet
+    Village Theme\u201C by Aila Scott\r\nCityCenter \u2013 \u201Ethe girl in the
+    forest\u201C by Arthur Vyncke\n\rForest \u2013 \u201ESad Autumn\u201C by Music_for_Videos\r\nWitch\u2019s
+    Hut \u2013 \u201Eits not your fault\u201C by Arthur Vyncke\n\nFont: \n\"Pixelatus\"
+    by Pixelatus 2\n\nIn loving memory of Mauz"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a66f4cd67c713544c9a08b5afa784821, type: 2}
   m_sharedMaterial: {fileID: -7898226835841762111, guid: a66f4cd67c713544c9a08b5afa784821, type: 2}
@@ -920,8 +919,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3138,7 +3137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -94, y: 207}
+  m_AnchoredPosition: {x: -94, y: 262}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848340233
