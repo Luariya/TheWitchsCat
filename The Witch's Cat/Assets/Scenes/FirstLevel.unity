@@ -145,7 +145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &27743413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -448,6 +448,9 @@ MonoBehaviour:
     me!!'
   - If only it would stop moving and not be so loud...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &41229846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,6 +1945,9 @@ MonoBehaviour:
   lines:
   - I'm waaaaay too hungry to go up the stairs.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &119320946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2851,6 +2857,9 @@ MonoBehaviour:
   - '*looks like the cat is distracted by the fire*'
   - If time could only pass faster...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &195501744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,6 +2970,9 @@ MonoBehaviour:
   - mhm...this fish always looked delicious....
   - Maybe just a little bite...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &197135496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4424,7 +4436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6768430258070985488, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.32
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 6768430258070985488, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4993,6 +5005,9 @@ MonoBehaviour:
   - This leads to the front door.
   - I can't go outside yet. I need to get my things first.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &300382576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6052,6 +6067,9 @@ MonoBehaviour:
   - Hehe, it seems digging holes has always been one of my favourite activities.
   - A very useful talent of mine!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &385149369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9349,6 +9367,9 @@ MonoBehaviour:
   - How do I get out now? The front door is locked and no windows are open.
   - Maybe I can convince the human in the living room to let me out.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &599323511
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9832,7 +9853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &625981494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10319,6 +10340,9 @@ MonoBehaviour:
     who that was.
   - 'I should prepare. First, I need to get my backpack from upstairs. '
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &648378199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10545,6 +10569,9 @@ MonoBehaviour:
   - 
   - The door is locked, I need a human to let me outside.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &664415714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10641,6 +10668,9 @@ MonoBehaviour:
   - Oh no! my food bowl is empty! This is a disaster!
   - I need to get this humans attention! I should meow at them!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &665294475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11035,6 +11065,9 @@ MonoBehaviour:
   - I should collect my favourite mouse and then head to the front door.
   - (click on an object to pick it up)
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &691202549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11577,6 +11610,9 @@ MonoBehaviour:
     there.
   - The human should leave if I turn on the sprinkler. But where was the switch again?
   textSpeed: 0.3
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &733538981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20736,7 +20772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &963093200
 Transform:
   m_ObjectHideFlags: 0
@@ -21256,6 +21292,9 @@ MonoBehaviour:
   - This human is not paying attention to me!
   - I have to use the song of my people again.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &995311163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23834,6 +23873,9 @@ MonoBehaviour:
   - I need to distract him from work so I can get Mr. Mouse!
   - I'm sure there is plant close-by I can knock over.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1166610860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28188,6 +28230,9 @@ MonoBehaviour:
   - (click on an item in your inventory and then on the object you want to use it
     on to use it)
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1279581323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28948,6 +28993,9 @@ MonoBehaviour:
   - (Review them in your memory book. You can find it in the left corner of your
     screen)
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1340118318 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8395960216227170448, guid: 459454f4cafa5f445a7b0aa541fd52d7, type: 3}
@@ -29479,6 +29527,9 @@ MonoBehaviour:
   - 
   - I need to convince this human to let me out! I should meow!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1385683027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39582,6 +39633,9 @@ MonoBehaviour:
   - There it is! My backpack! It's so far up though, how can I reach it?
   - I'm sure the little human will help me!
   textSpeed: 0.3
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1697154329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42395,6 +42449,9 @@ MonoBehaviour:
   - 
   - Mirror mirror on the wall, who's the cutest of them all?
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &1839791104
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44571,6 +44628,9 @@ MonoBehaviour:
   - 
   - Ohhh! My favourite cat tree! All naps on you are godly!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1998012203
 MonoBehaviour:
   m_ObjectHideFlags: 0
