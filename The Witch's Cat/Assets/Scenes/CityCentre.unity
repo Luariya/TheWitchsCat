@@ -13655,7 +13655,7 @@ GameObject:
   - component: {fileID: 678657126}
   - component: {fileID: 678657125}
   - component: {fileID: 678657124}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprites_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13803,6 +13803,10 @@ PrefabInstance:
     - target: {fileID: 4305433542301830120, guid: a5c310c309f60944b830de2a1fe4bcad, type: 3}
       propertyPath: m_Name
       value: Barista with flowers
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305433542301830120, guid: a5c310c309f60944b830de2a1fe4bcad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6336206789677373060, guid: a5c310c309f60944b830de2a1fe4bcad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14954,6 +14958,30 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 790203837}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 739385325}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 861112621}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -16521,7 +16549,7 @@ Transform:
   m_GameObject: {fileID: 790203837}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.56, y: 7.88, z: 0}
+  m_LocalPosition: {x: -1.56, y: 7.655, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18387,6 +18415,10 @@ PrefabInstance:
     - target: {fileID: 4305433542301830120, guid: a5c310c309f60944b830de2a1fe4bcad, type: 3}
       propertyPath: m_Name
       value: PetshopKeeper with coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305433542301830120, guid: a5c310c309f60944b830de2a1fe4bcad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6336206789677373060, guid: a5c310c309f60944b830de2a1fe4bcad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22601,7 +22633,7 @@ GameObject:
   - component: {fileID: 1140432152}
   - component: {fileID: 1140432151}
   - component: {fileID: 1140432150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprites_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46490,6 +46522,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1935589962}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 688100528}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!95 &1935589967
 Animator:
   serializedVersion: 5
@@ -50370,10 +50426,10 @@ SceneRoots:
   - {fileID: 782414626}
   - {fileID: 67907241}
   - {fileID: 757516890}
+  - {fileID: 861112620}
   - {fileID: 842104840}
+  - {fileID: 688100527}
   - {fileID: 1432663418}
   - {fileID: 120963712}
   - {fileID: 1541955404}
   - {fileID: 473545843}
-  - {fileID: 688100527}
-  - {fileID: 861112620}

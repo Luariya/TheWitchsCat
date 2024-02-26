@@ -1707,7 +1707,7 @@ MonoBehaviour:
   lines:
   - I've made it outside! Now I can start my search for that person with the funny
     hat.
-  - I should look around and try to find hints
+  - I should look around and try to find hints.
   textSpeed: 0
   OnTextFinished:
     m_PersistentCalls:
@@ -7773,8 +7773,8 @@ MonoBehaviour:
   textComponent: {fileID: 1937433935}
   lines:
   - 
-  - '*play animation*'
-  - Hey! The Busdriver won't let me in!
+  - Hey!
+  - The Busdriver won't let me in!
   - It's probably because I don't have these shiny round things... Humans seem to
     be obsessed with them.
   - I need 5 shiny things.
