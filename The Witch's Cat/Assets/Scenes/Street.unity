@@ -995,6 +995,9 @@ MonoBehaviour:
   - I guess I have to break it then, but I can't do that with my soft paws...
   - I need something hard to break it.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &59048002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1706,6 +1709,9 @@ MonoBehaviour:
     hat.
   - I should look around and try to find hints
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &161393241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3314,6 +3320,9 @@ MonoBehaviour:
   - 
   - It's too far away, I need to get closer.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &398097151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3443,7 +3452,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1449120387}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1
@@ -3591,6 +3600,9 @@ MonoBehaviour:
     from here.
   - I need something to distract it.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &423224499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3989,6 +4001,9 @@ MonoBehaviour:
   - I'm sure no one is gonna miss one small stone...
   - I think I can break something with this.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &439066768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6221,7 +6236,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1449120387}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetSFXVolume
         m_Mode: 1
@@ -6272,6 +6287,9 @@ MonoBehaviour:
   - Anyway, it's time to go. I still need to find the witch.
   - The other witch will probably know!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &616103185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7761,6 +7779,9 @@ MonoBehaviour:
     be obsessed with them.
   - I need 5 shiny things.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &800745356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7908,6 +7929,9 @@ MonoBehaviour:
   - But the dog is way too scary! I can't pass him.
   - I need something to distract him. Maybe a tasty treat.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &839458110
 GameObject:
   m_ObjectHideFlags: 0
@@ -8585,6 +8609,9 @@ MonoBehaviour:
   - 'I saw one of these before! They are so fast, I''m sure it can take me to the
     place of people! '
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &927561217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17345,6 +17372,9 @@ MonoBehaviour:
   - Anyway, it's time to go. I still need to find the witch.
   - The other witch will probably know!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1001424271
 GameObject:
   m_ObjectHideFlags: 0
@@ -17822,6 +17852,9 @@ MonoBehaviour:
   - But where can I find her? Maybe where lots of people are... But how do I get
     there...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1026784468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19317,6 +19350,9 @@ MonoBehaviour:
   - 'Ah! That day... I think that''s the day she brought me home! '
   - She had such a nice aura around her... I instantly felt comfortable with her.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &1338034935
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20623,8 +20659,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myMixer: {fileID: 24100000, guid: d94dc1d46af97f94ab2ba6dc3bcba932, type: 2}
-  musicSlider: {fileID: 0}
-  SFXSlider: {fileID: 0}
+  musicSlider: {fileID: 404455551}
+  SFXSlider: {fileID: 608110828}
 --- !u!114 &1449120388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23405,6 +23441,9 @@ MonoBehaviour:
   - 
   - One is probably not enough, I think 5 should do.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1779930397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25399,6 +25438,9 @@ MonoBehaviour:
   - 
   - I'm too scared, I need a distraction.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2049026469
 MonoBehaviour:
   m_ObjectHideFlags: 0

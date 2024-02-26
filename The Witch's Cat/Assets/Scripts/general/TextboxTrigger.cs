@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using TMPro;
 
 public class TextboxTrigger : MonoBehaviour
@@ -12,6 +13,8 @@ public class TextboxTrigger : MonoBehaviour
 
     public string[] lines = null;
     public float textSpeed = 0f;
+
+    public UnityEvent OnTextFinished;
 
     private bool allowNextLine = true;
 
@@ -68,6 +71,7 @@ public class TextboxTrigger : MonoBehaviour
         }
         else
         {
+            OnTextFinished?.Invoke();
             TextPanel.SetActive(false);
             
         }
@@ -96,8 +100,9 @@ public class TextboxTrigger : MonoBehaviour
         }
         else
         {
-            TextPanel.SetActive(false);
+            OnTextFinished?.Invoke();
           
+            TextPanel.SetActive(false);
         }
     }
     

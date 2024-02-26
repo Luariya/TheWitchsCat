@@ -50,4 +50,9 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
 
 
     }
+
+    public void RemoveSelf()
+    {
+        Destroy(this);
+    }
 }

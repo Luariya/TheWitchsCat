@@ -214,7 +214,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 130834069}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetSFXVolume
         m_Mode: 1
@@ -1187,6 +1187,9 @@ MonoBehaviour:
   - 'I will never find my witch if I''m lost in some forest... I need to find a way
     out of here! '
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &115084465
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1259,6 +1262,7 @@ GameObject:
   - component: {fileID: 130834066}
   - component: {fileID: 130834065}
   - component: {fileID: 130834061}
+  - component: {fileID: 130834069}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1372,6 +1376,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &130834069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130834060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4e2b76136c0964aad0223dd6d1d521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMixer: {fileID: 24100000, guid: d94dc1d46af97f94ab2ba6dc3bcba932, type: 2}
+  musicSlider: {fileID: 1933406172}
+  SFXSlider: {fileID: 2862720}
 --- !u!1001 &131317196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4755,6 +4774,9 @@ MonoBehaviour:
   - Have I been in this forest before? The path seems so familiar...
   - I think I know where to go.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &524720809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5164,6 +5186,9 @@ MonoBehaviour:
   - I remember! There is a clearing ahead!
   - I know where I am.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &609609150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19155,6 +19180,9 @@ MonoBehaviour:
   lines:
   - Close, but this is the wrong way.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &957334216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29857,7 +29885,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 130834069}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1

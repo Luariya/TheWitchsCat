@@ -1368,6 +1368,9 @@ MonoBehaviour:
   - I WAS RIGHT! THE WITCH IS HERE!
   - Quick! I need to go there and get their attention!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &54808267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2570,6 +2573,9 @@ MonoBehaviour:
   - I see my humans exchange them the whole time!
   - I'm sure the Barista would also like them!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &116215709
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5326,6 +5332,9 @@ MonoBehaviour:
   - Oh how I missed it... I need to smell it more. I need to eat it. I need MORE.
   - GIVE. ME. MORE. HAPPY. PLANT.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &223992898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6926,6 +6935,9 @@ MonoBehaviour:
     distract that human first.
   - What could I giveto distract them? What do humans like to recieve? A present?
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &302066608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7055,7 +7067,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 592806842}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1
@@ -8866,6 +8878,9 @@ MonoBehaviour:
   - Oh that guy over there seems to have the key to the snake's cage!
   - Let's see if I can use my cute cat charm to distract him
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &435119538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11548,6 +11563,9 @@ MonoBehaviour:
   lines:
   - I don't want to go back... I had enough of humans right now...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &564633438
 GameObject:
   m_ObjectHideFlags: 0
@@ -12243,6 +12261,7 @@ GameObject:
   - component: {fileID: 592806840}
   - component: {fileID: 592806839}
   - component: {fileID: 592806841}
+  - component: {fileID: 592806842}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -12409,6 +12428,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuPanel: {fileID: 1512417712}
   miauScript: {fileID: 0}
+--- !u!114 &592806842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592806833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4e2b76136c0964aad0223dd6d1d521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMixer: {fileID: 24100000, guid: d94dc1d46af97f94ab2ba6dc3bcba932, type: 2}
+  musicSlider: {fileID: 304722355}
+  SFXSlider: {fileID: 1385364048}
 --- !u!1 &598374450
 GameObject:
   m_ObjectHideFlags: 0
@@ -20321,6 +20355,9 @@ MonoBehaviour:
     happy plant.
   - That mouse was my first toy! Oh how I wish I could play with it again.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &962721408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31411,6 +31448,9 @@ MonoBehaviour:
   - But the humans are blocking my way! I can't get through! I need to do something.
   - Maybe I can find something in one of the shops...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &1160923905
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34391,6 +34431,9 @@ MonoBehaviour:
   - He has been waiting here for a while. I wonder what hes been waiting for. Maybe
     a treat?
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1318530295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35743,7 +35786,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 592806842}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetSFXVolume
         m_Mode: 1
@@ -36865,6 +36908,9 @@ MonoBehaviour:
     get me yummy things from here!
   - I need to get inside somehow.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1440709534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39237,6 +39283,9 @@ MonoBehaviour:
   - I got my hopes all up! This isn't my witch... But where else could she be? Oh
     I will never find her...
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &1557936626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -43291,6 +43340,9 @@ MonoBehaviour:
   - Hehe! Every human loves flowers!
   - Now I can give him the coffee!
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1727223399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43654,6 +43706,9 @@ MonoBehaviour:
   - My witch stayed up all night to rub it so I feel better.
   - I still love milk though.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1732629464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44193,6 +44248,9 @@ MonoBehaviour:
   - 'Now I only need to find my witch... '
   - There seem to be a lot of people over there. What's going on?
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &1780936262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45994,6 +46052,9 @@ MonoBehaviour:
     too!
   - I need to find 5 mice.
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1905065416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46641,6 +46702,9 @@ MonoBehaviour:
   - But the cage is locked, I can't let it out.
   - 'Where is the key? '
   textSpeed: 0
+  OnTextFinished:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1947121876
 MonoBehaviour:
   m_ObjectHideFlags: 0
