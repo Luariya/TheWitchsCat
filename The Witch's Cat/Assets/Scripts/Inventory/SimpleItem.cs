@@ -16,12 +16,15 @@ public class SimpleItem : MonoBehaviour, IInventoryItem
     public Sprite Image => itemImage;
     public Activatable MyActivatable => myInteractable ;
 
+    public bool destroyOnPickUp = true;
+
     public void OnPickup()
     {
         
             Debug.Log($"Picked up {itemName}!");
         onCollected?.Invoke();
-            Destroy(gameObject); // For example, destroy the item after pickup
+        if(destroyOnPickUp)
+            Destroy(gameObject); 
 
        
     }
