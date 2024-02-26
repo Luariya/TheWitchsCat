@@ -9442,7 +9442,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -7025247605613274867, guid: d94dc1d46af97f94ab2ba6dc3bcba932, type: 2}
-  m_audioClip: {fileID: 8300000, guid: b55a0185f989fd64fa482421d8cf8807, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 22d684b00820a9b46be3129e0145dd66, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
@@ -13726,7 +13726,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 3
   m_Sprite: {fileID: 977472473, guid: 035ddba7203fcf7479281f8990f0ab4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16466,7 +16466,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1555392028, guid: 4794addda2502c140b58df67b4a39309, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16525,9 +16525,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04644078, y: 0}
+  m_Offset: {x: 0.04644078, y: -0.058235794}
   serializedVersion: 2
-  m_Radius: 0.29644078
+  m_Radius: 0.35467657
 --- !u!114 &790203841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22656,7 +22656,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1301402043, guid: 035ddba7203fcf7479281f8990f0ab4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
