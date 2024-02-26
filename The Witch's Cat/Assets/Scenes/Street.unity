@@ -182,6 +182,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &735830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2511,6 +2512,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &310971224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3079,6 +3081,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  destroyOnPickUp: 1
 --- !u!58 &378214674
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3819,6 +3822,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &428244276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5726,6 +5730,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  destroyOnPickUp: 1
 --- !u!58 &582021012
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6017,6 +6022,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &587496931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7324,6 +7330,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1449120386}
     m_Modifications:
+    - target: {fileID: 2177639179952660325, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177639179952660325, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 4330670650055281905, guid: 39048b4c7d7d9674cad6138c06236de3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -7597,6 +7611,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!212 &777103027
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17003,6 +17018,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!58 &950971577
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17097,6 +17113,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &957913416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17377,6 +17394,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  destroyOnPickUp: 1
 --- !u!58 &1001424273
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21373,6 +21391,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &1513183394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21970,6 +21989,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &1548911418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22136,6 +22156,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &1549358609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23146,6 +23167,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &1756322823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24106,6 +24128,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  destroyOnPickUp: 1
 --- !u!58 &1922922379
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25851,6 +25874,7 @@ MonoBehaviour:
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnPickUp: 1
 --- !u!114 &2107126669
 MonoBehaviour:
   m_ObjectHideFlags: 0
